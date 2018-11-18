@@ -1,7 +1,7 @@
 # Trello-color-palette
 Scss (sass) and css trello color palette to use in your next project. 
 
-![Image](https://i.imgur.com/J5ZQIsd.png)
+![Image](https://i.imgur.com/4k7bv8I.png)
 
 ## Customization
 Use sass file to create your custom class names 
@@ -27,5 +27,5 @@ $color-map: (
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzMyNDIwNjZdfQ==
+eyJoaXN0b3J5IjpbMTg4NTA4NzI5NywtMTg3MzI0MjA2Nl19
 -->
