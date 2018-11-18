@@ -1,5 +1,5 @@
 # Trello-color-palette
-Scss (sass) and css material design color palette to use in your next project. 
+Scss (sass) and css trello color palette to use in your next project. 
 
 ![Image](https://i.imgur.com/J5ZQIsd.png)
 
@@ -14,18 +14,18 @@ $Trello-Blue-50  :  #E4F0F6;
  2. Turn color variables to a color map
 ``` 
 $color-map: (
-	Blue-50  :  $Trello-Blue-50,
+	Blue-50 : $Trello-Blue-50,
 )
 ```
  3. Using map turn all colors to background-color, Color and
  border-color with the same name
 ``` 
 @each $color-key, $color-var in $color-map {
-	.md-bg--#{$color-key} {
+	.trello-bg--#{$color-key} {
 		background-color: $color-var;
 	}
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA5NTY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NzMyNDIwNjZdfQ==
 -->
