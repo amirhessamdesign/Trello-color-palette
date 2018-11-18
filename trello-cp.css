@@ -1,0 +1,912 @@
+/***************************************
+/**** trello color palette
+
+/****  you can find the palette in : 
+/****  https://design.trello.com/style/color
+
+/****  My repository link :
+/****  https://github.com/amirhessamdesign/Trello-color-palette.git
+
+/****  You can find "flat ui" and "material design" color palettes too 
+***************************************/
+.trello-bg--Blue-50 {
+  background-color: #E4F0F6; }
+
+.trello-bg--Blue-100 {
+  background-color: #BCD9EA; }
+
+.trello-bg--Blue-200 {
+  background-color: #8BBDD9; }
+
+.trello-bg--Blue-300 {
+  background-color: #5BA4CF; }
+
+.trello-bg--Blue-400 {
+  background-color: #298FCA; }
+
+.trello-bg--Blue-500 {
+  background-color: #0079BF; }
+
+.trello-bg--Blue-600 {
+  background-color: #026AA7; }
+
+.trello-bg--Blue-700 {
+  background-color: #055A8C; }
+
+.trello-bg--Blue-800 {
+  background-color: #094C72; }
+
+.trello-bg--Blue-900 {
+  background-color: #0C3953; }
+
+.trello-bg--Green-50 {
+  background-color: #EEF6EC; }
+
+.trello-bg--Green-100 {
+  background-color: #D6ECD2; }
+
+.trello-bg--Green-200 {
+  background-color: #B7DDB0; }
+
+.trello-bg--Green-300 {
+  background-color: #99D18F; }
+
+.trello-bg--Green-400 {
+  background-color: #7BC86C; }
+
+.trello-bg--Green-500 {
+  background-color: #61BD4F; }
+
+.trello-bg--Green-600 {
+  background-color: #5AAC44; }
+
+.trello-bg--Green-700 {
+  background-color: #519839; }
+
+.trello-bg--Green-800 {
+  background-color: #49852E; }
+
+.trello-bg--Green-900 {
+  background-color: #3F6F21; }
+
+.trello-bg--Orange-50 {
+  background-color: #FDF5EC; }
+
+.trello-bg--Orange-100 {
+  background-color: #FCE8D2; }
+
+.trello-bg--Orange-200 {
+  background-color: #FAD8B0; }
+
+.trello-bg--Orange-300 {
+  background-color: #FDC788; }
+
+.trello-bg--Orange-400 {
+  background-color: #FFB968; }
+
+.trello-bg--Orange-500 {
+  background-color: #FFAB4A; }
+
+.trello-bg--Orange-600 {
+  background-color: #E99E40; }
+
+.trello-bg--Orange-700 {
+  background-color: #D29034; }
+
+.trello-bg--Orange-800 {
+  background-color: #BB8129; }
+
+.trello-bg--Orange-900 {
+  background-color: #A0711C; }
+
+.trello-bg--Red-50 {
+  background-color: #FBEDEB; }
+
+.trello-bg--Red-100 {
+  background-color: #F5D3CE; }
+
+.trello-bg--Red-200 {
+  background-color: #EFB3AB; }
+
+.trello-bg--Red-300 {
+  background-color: #EC9488; }
+
+.trello-bg--Red-400 {
+  background-color: #EF7564; }
+
+.trello-bg--Red-500 {
+  background-color: #EB5A46; }
+
+.trello-bg--Red-600 {
+  background-color: #CF513D; }
+
+.trello-bg--Red-700 {
+  background-color: #B04632; }
+
+.trello-bg--Red-800 {
+  background-color: #933B27; }
+
+.trello-bg--Red-900 {
+  background-color: #6E2F1A; }
+
+.trello-bg--Yellow-50 {
+  background-color: #FDFAE5; }
+
+.trello-bg--Yellow-100 {
+  background-color: #FAF3C0; }
+
+.trello-bg--Yellow-200 {
+  background-color: #F5EA92; }
+
+.trello-bg--Yellow-300 {
+  background-color: #F3E260; }
+
+.trello-bg--Yellow-400 {
+  background-color: #F5DD29; }
+
+.trello-bg--Yellow-500 {
+  background-color: #F2D600; }
+
+.trello-bg--Yellow-600 {
+  background-color: #E6C60D; }
+
+.trello-bg--Yellow-700 {
+  background-color: #D9B51C; }
+
+.trello-bg--Yellow-800 {
+  background-color: #CCA42B; }
+
+.trello-bg--Yellow-900 {
+  background-color: #BD903C; }
+
+.trello-bg--Purple-50 {
+  background-color: #F7F0FA; }
+
+.trello-bg--Purple-100 {
+  background-color: #EDDBF4; }
+
+.trello-bg--Purple-200 {
+  background-color: #DFC0EB; }
+
+.trello-bg--Purple-300 {
+  background-color: #D5A6E6; }
+
+.trello-bg--Purple-400 {
+  background-color: #CD8DE5; }
+
+.trello-bg--Purple-500 {
+  background-color: #C377E0; }
+
+.trello-bg--Purple-600 {
+  background-color: #A86CC1; }
+
+.trello-bg--Purple-700 {
+  background-color: #89609E; }
+
+.trello-bg--Purple-800 {
+  background-color: #6C547B; }
+
+.trello-bg--Purple-900 {
+  background-color: #484553; }
+
+.trello-bg--Pink-50 {
+  background-color: #FEF2F9; }
+
+.trello-bg--Pink-100 {
+  background-color: #FCDEF0; }
+
+.trello-bg--Pink-200 {
+  background-color: #FAC6E5; }
+
+.trello-bg--Pink-300 {
+  background-color: #FFB0E1; }
+
+.trello-bg--Pink-400 {
+  background-color: #FF95D6; }
+
+.trello-bg--Pink-500 {
+  background-color: #FF80CE; }
+
+.trello-bg--Pink-600 {
+  background-color: #E76EB1; }
+
+.trello-bg--Pink-700 {
+  background-color: #CD5A91; }
+
+.trello-bg--Pink-800 {
+  background-color: #B44772; }
+
+.trello-bg--Pink-900 {
+  background-color: #96304C; }
+
+.trello-bg--Sky-50 {
+  background-color: #E4F7FA; }
+
+.trello-bg--Sky-100 {
+  background-color: #BDECF3; }
+
+.trello-bg--Sky-200 {
+  background-color: #8FDFEB; }
+
+.trello-bg--Sky-300 {
+  background-color: #5DD3E5; }
+
+.trello-bg--Sky-400 {
+  background-color: #29CCE5; }
+
+.trello-bg--Sky-500 {
+  background-color: #00C2E0; }
+
+.trello-bg--Sky-600 {
+  background-color: #00AECC; }
+
+.trello-bg--Sky-700 {
+  background-color: #0098B7; }
+
+.trello-bg--Sky-800 {
+  background-color: #0082A0; }
+
+.trello-bg--Sky-900 {
+  background-color: #006988; }
+
+.trello-bg--Lime-50 {
+  background-color: #ECFBF3; }
+
+.trello-bg--Lime-100 {
+  background-color: #D3F6E4; }
+
+.trello-bg--Lime-200 {
+  background-color: #B3F1D0; }
+
+.trello-bg--Lime-300 {
+  background-color: #90ECC1; }
+
+.trello-bg--Lime-400 {
+  background-color: #6DECA9; }
+
+.trello-bg--Lime-500 {
+  background-color: #51E898; }
+
+.trello-bg--Lime-600 {
+  background-color: #4FD683; }
+
+.trello-bg--Lime-700 {
+  background-color: #4DC26B; }
+
+.trello-bg--Lime-800 {
+  background-color: #4CAF54; }
+
+.trello-bg--Lime-900 {
+  background-color: #4A9839; }
+
+.trello-bg--Shades-0 {
+  background-color: #FFFFFF; }
+
+.trello-bg--Shades-50 {
+  background-color: #F8F9F9; }
+
+.trello-bg--Shades-100 {
+  background-color: #EDEFF0; }
+
+.trello-bg--Shades-200 {
+  background-color: #E2E4E6; }
+
+.trello-bg--Shades-300 {
+  background-color: #D6DADC; }
+
+.trello-bg--Shades-400 {
+  background-color: #838C91; }
+
+.trello-bg--Shades-500 {
+  background-color: #676D70; }
+
+.trello-bg--Shades-600 {
+  background-color: #333333; }
+
+.trello-bg--Shades-700 {
+  background-color: #222222; }
+
+.trello-bg--Shades-900 {
+  background-color: #000000; }
+
+.trello-color--Blue-50 {
+  color: #E4F0F6; }
+
+.trello-color--Blue-100 {
+  color: #BCD9EA; }
+
+.trello-color--Blue-200 {
+  color: #8BBDD9; }
+
+.trello-color--Blue-300 {
+  color: #5BA4CF; }
+
+.trello-color--Blue-400 {
+  color: #298FCA; }
+
+.trello-color--Blue-500 {
+  color: #0079BF; }
+
+.trello-color--Blue-600 {
+  color: #026AA7; }
+
+.trello-color--Blue-700 {
+  color: #055A8C; }
+
+.trello-color--Blue-800 {
+  color: #094C72; }
+
+.trello-color--Blue-900 {
+  color: #0C3953; }
+
+.trello-color--Green-50 {
+  color: #EEF6EC; }
+
+.trello-color--Green-100 {
+  color: #D6ECD2; }
+
+.trello-color--Green-200 {
+  color: #B7DDB0; }
+
+.trello-color--Green-300 {
+  color: #99D18F; }
+
+.trello-color--Green-400 {
+  color: #7BC86C; }
+
+.trello-color--Green-500 {
+  color: #61BD4F; }
+
+.trello-color--Green-600 {
+  color: #5AAC44; }
+
+.trello-color--Green-700 {
+  color: #519839; }
+
+.trello-color--Green-800 {
+  color: #49852E; }
+
+.trello-color--Green-900 {
+  color: #3F6F21; }
+
+.trello-color--Orange-50 {
+  color: #FDF5EC; }
+
+.trello-color--Orange-100 {
+  color: #FCE8D2; }
+
+.trello-color--Orange-200 {
+  color: #FAD8B0; }
+
+.trello-color--Orange-300 {
+  color: #FDC788; }
+
+.trello-color--Orange-400 {
+  color: #FFB968; }
+
+.trello-color--Orange-500 {
+  color: #FFAB4A; }
+
+.trello-color--Orange-600 {
+  color: #E99E40; }
+
+.trello-color--Orange-700 {
+  color: #D29034; }
+
+.trello-color--Orange-800 {
+  color: #BB8129; }
+
+.trello-color--Orange-900 {
+  color: #A0711C; }
+
+.trello-color--Red-50 {
+  color: #FBEDEB; }
+
+.trello-color--Red-100 {
+  color: #F5D3CE; }
+
+.trello-color--Red-200 {
+  color: #EFB3AB; }
+
+.trello-color--Red-300 {
+  color: #EC9488; }
+
+.trello-color--Red-400 {
+  color: #EF7564; }
+
+.trello-color--Red-500 {
+  color: #EB5A46; }
+
+.trello-color--Red-600 {
+  color: #CF513D; }
+
+.trello-color--Red-700 {
+  color: #B04632; }
+
+.trello-color--Red-800 {
+  color: #933B27; }
+
+.trello-color--Red-900 {
+  color: #6E2F1A; }
+
+.trello-color--Yellow-50 {
+  color: #FDFAE5; }
+
+.trello-color--Yellow-100 {
+  color: #FAF3C0; }
+
+.trello-color--Yellow-200 {
+  color: #F5EA92; }
+
+.trello-color--Yellow-300 {
+  color: #F3E260; }
+
+.trello-color--Yellow-400 {
+  color: #F5DD29; }
+
+.trello-color--Yellow-500 {
+  color: #F2D600; }
+
+.trello-color--Yellow-600 {
+  color: #E6C60D; }
+
+.trello-color--Yellow-700 {
+  color: #D9B51C; }
+
+.trello-color--Yellow-800 {
+  color: #CCA42B; }
+
+.trello-color--Yellow-900 {
+  color: #BD903C; }
+
+.trello-color--Purple-50 {
+  color: #F7F0FA; }
+
+.trello-color--Purple-100 {
+  color: #EDDBF4; }
+
+.trello-color--Purple-200 {
+  color: #DFC0EB; }
+
+.trello-color--Purple-300 {
+  color: #D5A6E6; }
+
+.trello-color--Purple-400 {
+  color: #CD8DE5; }
+
+.trello-color--Purple-500 {
+  color: #C377E0; }
+
+.trello-color--Purple-600 {
+  color: #A86CC1; }
+
+.trello-color--Purple-700 {
+  color: #89609E; }
+
+.trello-color--Purple-800 {
+  color: #6C547B; }
+
+.trello-color--Purple-900 {
+  color: #484553; }
+
+.trello-color--Pink-50 {
+  color: #FEF2F9; }
+
+.trello-color--Pink-100 {
+  color: #FCDEF0; }
+
+.trello-color--Pink-200 {
+  color: #FAC6E5; }
+
+.trello-color--Pink-300 {
+  color: #FFB0E1; }
+
+.trello-color--Pink-400 {
+  color: #FF95D6; }
+
+.trello-color--Pink-500 {
+  color: #FF80CE; }
+
+.trello-color--Pink-600 {
+  color: #E76EB1; }
+
+.trello-color--Pink-700 {
+  color: #CD5A91; }
+
+.trello-color--Pink-800 {
+  color: #B44772; }
+
+.trello-color--Pink-900 {
+  color: #96304C; }
+
+.trello-color--Sky-50 {
+  color: #E4F7FA; }
+
+.trello-color--Sky-100 {
+  color: #BDECF3; }
+
+.trello-color--Sky-200 {
+  color: #8FDFEB; }
+
+.trello-color--Sky-300 {
+  color: #5DD3E5; }
+
+.trello-color--Sky-400 {
+  color: #29CCE5; }
+
+.trello-color--Sky-500 {
+  color: #00C2E0; }
+
+.trello-color--Sky-600 {
+  color: #00AECC; }
+
+.trello-color--Sky-700 {
+  color: #0098B7; }
+
+.trello-color--Sky-800 {
+  color: #0082A0; }
+
+.trello-color--Sky-900 {
+  color: #006988; }
+
+.trello-color--Lime-50 {
+  color: #ECFBF3; }
+
+.trello-color--Lime-100 {
+  color: #D3F6E4; }
+
+.trello-color--Lime-200 {
+  color: #B3F1D0; }
+
+.trello-color--Lime-300 {
+  color: #90ECC1; }
+
+.trello-color--Lime-400 {
+  color: #6DECA9; }
+
+.trello-color--Lime-500 {
+  color: #51E898; }
+
+.trello-color--Lime-600 {
+  color: #4FD683; }
+
+.trello-color--Lime-700 {
+  color: #4DC26B; }
+
+.trello-color--Lime-800 {
+  color: #4CAF54; }
+
+.trello-color--Lime-900 {
+  color: #4A9839; }
+
+.trello-color--Shades-0 {
+  color: #FFFFFF; }
+
+.trello-color--Shades-50 {
+  color: #F8F9F9; }
+
+.trello-color--Shades-100 {
+  color: #EDEFF0; }
+
+.trello-color--Shades-200 {
+  color: #E2E4E6; }
+
+.trello-color--Shades-300 {
+  color: #D6DADC; }
+
+.trello-color--Shades-400 {
+  color: #838C91; }
+
+.trello-color--Shades-500 {
+  color: #676D70; }
+
+.trello-color--Shades-600 {
+  color: #333333; }
+
+.trello-color--Shades-700 {
+  color: #222222; }
+
+.trello-color--Shades-900 {
+  color: #000000; }
+
+.trello-bc--Blue-50 {
+  border-color: #E4F0F6; }
+
+.trello-bc--Blue-100 {
+  border-color: #BCD9EA; }
+
+.trello-bc--Blue-200 {
+  border-color: #8BBDD9; }
+
+.trello-bc--Blue-300 {
+  border-color: #5BA4CF; }
+
+.trello-bc--Blue-400 {
+  border-color: #298FCA; }
+
+.trello-bc--Blue-500 {
+  border-color: #0079BF; }
+
+.trello-bc--Blue-600 {
+  border-color: #026AA7; }
+
+.trello-bc--Blue-700 {
+  border-color: #055A8C; }
+
+.trello-bc--Blue-800 {
+  border-color: #094C72; }
+
+.trello-bc--Blue-900 {
+  border-color: #0C3953; }
+
+.trello-bc--Green-50 {
+  border-color: #EEF6EC; }
+
+.trello-bc--Green-100 {
+  border-color: #D6ECD2; }
+
+.trello-bc--Green-200 {
+  border-color: #B7DDB0; }
+
+.trello-bc--Green-300 {
+  border-color: #99D18F; }
+
+.trello-bc--Green-400 {
+  border-color: #7BC86C; }
+
+.trello-bc--Green-500 {
+  border-color: #61BD4F; }
+
+.trello-bc--Green-600 {
+  border-color: #5AAC44; }
+
+.trello-bc--Green-700 {
+  border-color: #519839; }
+
+.trello-bc--Green-800 {
+  border-color: #49852E; }
+
+.trello-bc--Green-900 {
+  border-color: #3F6F21; }
+
+.trello-bc--Orange-50 {
+  border-color: #FDF5EC; }
+
+.trello-bc--Orange-100 {
+  border-color: #FCE8D2; }
+
+.trello-bc--Orange-200 {
+  border-color: #FAD8B0; }
+
+.trello-bc--Orange-300 {
+  border-color: #FDC788; }
+
+.trello-bc--Orange-400 {
+  border-color: #FFB968; }
+
+.trello-bc--Orange-500 {
+  border-color: #FFAB4A; }
+
+.trello-bc--Orange-600 {
+  border-color: #E99E40; }
+
+.trello-bc--Orange-700 {
+  border-color: #D29034; }
+
+.trello-bc--Orange-800 {
+  border-color: #BB8129; }
+
+.trello-bc--Orange-900 {
+  border-color: #A0711C; }
+
+.trello-bc--Red-50 {
+  border-color: #FBEDEB; }
+
+.trello-bc--Red-100 {
+  border-color: #F5D3CE; }
+
+.trello-bc--Red-200 {
+  border-color: #EFB3AB; }
+
+.trello-bc--Red-300 {
+  border-color: #EC9488; }
+
+.trello-bc--Red-400 {
+  border-color: #EF7564; }
+
+.trello-bc--Red-500 {
+  border-color: #EB5A46; }
+
+.trello-bc--Red-600 {
+  border-color: #CF513D; }
+
+.trello-bc--Red-700 {
+  border-color: #B04632; }
+
+.trello-bc--Red-800 {
+  border-color: #933B27; }
+
+.trello-bc--Red-900 {
+  border-color: #6E2F1A; }
+
+.trello-bc--Yellow-50 {
+  border-color: #FDFAE5; }
+
+.trello-bc--Yellow-100 {
+  border-color: #FAF3C0; }
+
+.trello-bc--Yellow-200 {
+  border-color: #F5EA92; }
+
+.trello-bc--Yellow-300 {
+  border-color: #F3E260; }
+
+.trello-bc--Yellow-400 {
+  border-color: #F5DD29; }
+
+.trello-bc--Yellow-500 {
+  border-color: #F2D600; }
+
+.trello-bc--Yellow-600 {
+  border-color: #E6C60D; }
+
+.trello-bc--Yellow-700 {
+  border-color: #D9B51C; }
+
+.trello-bc--Yellow-800 {
+  border-color: #CCA42B; }
+
+.trello-bc--Yellow-900 {
+  border-color: #BD903C; }
+
+.trello-bc--Purple-50 {
+  border-color: #F7F0FA; }
+
+.trello-bc--Purple-100 {
+  border-color: #EDDBF4; }
+
+.trello-bc--Purple-200 {
+  border-color: #DFC0EB; }
+
+.trello-bc--Purple-300 {
+  border-color: #D5A6E6; }
+
+.trello-bc--Purple-400 {
+  border-color: #CD8DE5; }
+
+.trello-bc--Purple-500 {
+  border-color: #C377E0; }
+
+.trello-bc--Purple-600 {
+  border-color: #A86CC1; }
+
+.trello-bc--Purple-700 {
+  border-color: #89609E; }
+
+.trello-bc--Purple-800 {
+  border-color: #6C547B; }
+
+.trello-bc--Purple-900 {
+  border-color: #484553; }
+
+.trello-bc--Pink-50 {
+  border-color: #FEF2F9; }
+
+.trello-bc--Pink-100 {
+  border-color: #FCDEF0; }
+
+.trello-bc--Pink-200 {
+  border-color: #FAC6E5; }
+
+.trello-bc--Pink-300 {
+  border-color: #FFB0E1; }
+
+.trello-bc--Pink-400 {
+  border-color: #FF95D6; }
+
+.trello-bc--Pink-500 {
+  border-color: #FF80CE; }
+
+.trello-bc--Pink-600 {
+  border-color: #E76EB1; }
+
+.trello-bc--Pink-700 {
+  border-color: #CD5A91; }
+
+.trello-bc--Pink-800 {
+  border-color: #B44772; }
+
+.trello-bc--Pink-900 {
+  border-color: #96304C; }
+
+.trello-bc--Sky-50 {
+  border-color: #E4F7FA; }
+
+.trello-bc--Sky-100 {
+  border-color: #BDECF3; }
+
+.trello-bc--Sky-200 {
+  border-color: #8FDFEB; }
+
+.trello-bc--Sky-300 {
+  border-color: #5DD3E5; }
+
+.trello-bc--Sky-400 {
+  border-color: #29CCE5; }
+
+.trello-bc--Sky-500 {
+  border-color: #00C2E0; }
+
+.trello-bc--Sky-600 {
+  border-color: #00AECC; }
+
+.trello-bc--Sky-700 {
+  border-color: #0098B7; }
+
+.trello-bc--Sky-800 {
+  border-color: #0082A0; }
+
+.trello-bc--Sky-900 {
+  border-color: #006988; }
+
+.trello-bc--Lime-50 {
+  border-color: #ECFBF3; }
+
+.trello-bc--Lime-100 {
+  border-color: #D3F6E4; }
+
+.trello-bc--Lime-200 {
+  border-color: #B3F1D0; }
+
+.trello-bc--Lime-300 {
+  border-color: #90ECC1; }
+
+.trello-bc--Lime-400 {
+  border-color: #6DECA9; }
+
+.trello-bc--Lime-500 {
+  border-color: #51E898; }
+
+.trello-bc--Lime-600 {
+  border-color: #4FD683; }
+
+.trello-bc--Lime-700 {
+  border-color: #4DC26B; }
+
+.trello-bc--Lime-800 {
+  border-color: #4CAF54; }
+
+.trello-bc--Lime-900 {
+  border-color: #4A9839; }
+
+.trello-bc--Shades-0 {
+  border-color: #FFFFFF; }
+
+.trello-bc--Shades-50 {
+  border-color: #F8F9F9; }
+
+.trello-bc--Shades-100 {
+  border-color: #EDEFF0; }
+
+.trello-bc--Shades-200 {
+  border-color: #E2E4E6; }
+
+.trello-bc--Shades-300 {
+  border-color: #D6DADC; }
+
+.trello-bc--Shades-400 {
+  border-color: #838C91; }
+
+.trello-bc--Shades-500 {
+  border-color: #676D70; }
+
+.trello-bc--Shades-600 {
+  border-color: #333333; }
+
+.trello-bc--Shades-700 {
+  border-color: #222222; }
+
+.trello-bc--Shades-900 {
+  border-color: #000000; }
+
+/*# sourceMappingURL=trello-cp.css.map */
